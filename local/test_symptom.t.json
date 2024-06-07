@@ -22,7 +22,7 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "MD5-CAM-1.0.1" : "83c3b03e4b392cc6447f8a656bd98307",
+      "MD5-CAM-1.0.1" : "df72b9a3ee4bf3b58160f69095d52a5e",
       "PARENT:MD5-CAM-1.0.1" : "327A8885F97587660404644C3C6053B6"
     },
     "details" : {
@@ -404,6 +404,7 @@
             "children" : [ {
               "@type" : "C_COMPLEX_OBJECT",
               "rmTypeName" : "EVENT",
+              "occurrences" : "1..1",
               "nodeId" : "at0002.1",
               "attributes" : [ {
                 "@type" : "C_ATTRIBUTE",
@@ -738,13 +739,93 @@
                           "@type" : "C_COMPLEX_OBJECT",
                           "rmTypeName" : "DV_TEXT",
                           "defaultValue" : {
-                            "value" : "Mage/tarm",
+                            "value" : "Infeksjoner",
                             "@type" : "DV_TEXT"
                           },
                           "attributes" : [ ],
                           "attributeTuples" : [ ]
                         } ]
                       } ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "nodeId" : "at0028.2",
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "value",
+                        "children" : [ {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "DV_CODED_TEXT",
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "defining_code",
+                            "children" : [ {
+                              "@type" : "C_TERMINOLOGY_CODE",
+                              "rmTypeName" : "CODE_PHRASE",
+                              "occurrences" : "1..1",
+                              "terminologyId" : {
+                                "value" : "local"
+                              },
+                              "constraint" : [ "at0031", "at0032", "at0033" ]
+                            } ]
+                          } ],
+                          "attributeTuples" : [ ]
+                        }, {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "DV_TEXT",
+                          "attributes" : [ ],
+                          "attributeTuples" : [ ]
+                        }, {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "DV_BOOLEAN",
+                          "attributes" : [ ],
+                          "attributeTuples" : [ ]
+                        } ]
+                      } ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "occurrences" : "0..0",
+                      "nodeId" : "at0029.2",
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "value",
+                        "children" : [ {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "DV_DATE_TIME",
+                          "attributes" : [ ],
+                          "attributeTuples" : [ ]
+                        }, {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "DV_INTERVAL<DV_DATE_TIME>",
+                          "attributes" : [ ],
+                          "attributeTuples" : [ ]
+                        }, {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "DV_TEXT",
+                          "attributes" : [ ],
+                          "attributeTuples" : [ ]
+                        }, {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "DV_DURATION",
+                          "attributes" : [ ],
+                          "attributeTuples" : [ ]
+                        }, {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "DV_INTERVAL<DV_DURATION>",
+                          "attributes" : [ ],
+                          "attributeTuples" : [ ]
+                        } ]
+                      } ],
+                      "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "ELEMENT",
+                      "occurrences" : "0..0",
+                      "nodeId" : "at0036.2",
+                      "attributes" : [ ],
                       "attributeTuples" : [ ]
                     } ]
                   } ],
@@ -892,6 +973,13 @@
             "code" : "at0005.2",
             "text" : "Magesår",
             "description" : "Har det spesifikke symptomet eller sykdomstegnet noen gang vært til stede?",
+            "comment" : "Navnet på dataelementet kan omformuleres til det spesifikke spørsmålet i et templat eller brukergrensesnitt. Det foreslåtte verdisettet kan tilpasses/endres i det enkelte bruksområde ved å benytte de alternative datatypene DV_TEXT eller DV_BOOLEAN."
+          },
+          "at0028.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0028.2",
+            "text" : "Har du infeksjoner?",
+            "description" : "Finnes det noen tidligere symptomer eller sykdomstegn som er innenfor kartleggingsformålet?",
             "comment" : "Navnet på dataelementet kan omformuleres til det spesifikke spørsmålet i et templat eller brukergrensesnitt. Det foreslåtte verdisettet kan tilpasses/endres i det enkelte bruksområde ved å benytte de alternative datatypene DV_TEXT eller DV_BOOLEAN."
           }
         },
