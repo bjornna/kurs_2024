@@ -22,7 +22,7 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "MD5-CAM-1.0.1" : "df72b9a3ee4bf3b58160f69095d52a5e",
+      "MD5-CAM-1.0.1" : "d2b64b54e0b2b581650e5373ed9739c6",
       "PARENT:MD5-CAM-1.0.1" : "327A8885F97587660404644C3C6053B6"
     },
     "details" : {
@@ -523,12 +523,27 @@
                             "rmAttributeName" : "value",
                             "children" : [ {
                               "@type" : "C_COMPLEX_OBJECT",
-                              "rmTypeName" : "DV_TEXT",
-                              "defaultValue" : {
-                                "value" : "Halsbrann",
-                                "@type" : "DV_TEXT"
-                              },
-                              "attributes" : [ ],
+                              "rmTypeName" : "DV_CODED_TEXT",
+                              "occurrences" : "1..1",
+                              "attributes" : [ {
+                                "@type" : "C_ATTRIBUTE",
+                                "rmAttributeName" : "defining_code",
+                                "children" : [ {
+                                  "@type" : "C_TERMINOLOGY_CODE",
+                                  "rmTypeName" : "TERMINOLOGY_CODE",
+                                  "occurrences" : "0..1",
+                                  "terminologyId" : {
+                                    "value" : "SNOMED-CT"
+                                  },
+                                  "constraint" : [ ],
+                                  "selectedTerminologies" : [ "SNOMED-CT" ],
+                                  "includedExternalTerminologyCodes" : [ {
+                                    "terminologyId" : "SNOMED-CT",
+                                    "code" : "16331000",
+                                    "value" : "Halsbrann"
+                                  } ]
+                                } ]
+                              } ],
                               "attributeTuples" : [ ]
                             } ]
                           } ],
@@ -624,12 +639,27 @@
                             "rmAttributeName" : "value",
                             "children" : [ {
                               "@type" : "C_COMPLEX_OBJECT",
-                              "rmTypeName" : "DV_TEXT",
-                              "defaultValue" : {
-                                "value" : "Magesår",
-                                "@type" : "DV_TEXT"
-                              },
-                              "attributes" : [ ],
+                              "rmTypeName" : "DV_CODED_TEXT",
+                              "occurrences" : "1..1",
+                              "attributes" : [ {
+                                "@type" : "C_ATTRIBUTE",
+                                "rmAttributeName" : "defining_code",
+                                "children" : [ {
+                                  "@type" : "C_TERMINOLOGY_CODE",
+                                  "rmTypeName" : "TERMINOLOGY_CODE",
+                                  "occurrences" : "0..1",
+                                  "terminologyId" : {
+                                    "value" : "SNOMED-CT"
+                                  },
+                                  "constraint" : [ ],
+                                  "selectedTerminologies" : [ "SNOMED-CT" ],
+                                  "includedExternalTerminologyCodes" : [ {
+                                    "terminologyId" : "SNOMED-CT",
+                                    "code" : "13200003",
+                                    "value" : "Magesår"
+                                  } ]
+                                } ]
+                              } ],
                               "attributeTuples" : [ ]
                             } ]
                           } ],
