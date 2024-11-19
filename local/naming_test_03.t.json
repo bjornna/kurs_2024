@@ -22,7 +22,7 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "MD5-CAM-1.0.1" : "8b89da58a95d97418aec002cf9546af6",
+      "MD5-CAM-1.0.1" : "14d82b8f943d1e5b027e5919ea526b50",
       "PARENT:MD5-CAM-1.0.1" : "327A8885F97587660404644C3C6053B6"
     },
     "details" : {
@@ -557,6 +557,73 @@
                         } ]
                       } ],
                       "attributeTuples" : [ ]
+                    }, {
+                      "@type" : "C_COMPLEX_OBJECT",
+                      "rmTypeName" : "CLUSTER",
+                      "nodeId" : "at0026.2",
+                      "attributes" : [ {
+                        "@type" : "C_ATTRIBUTE",
+                        "rmAttributeName" : "items",
+                        "children" : [ {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "ELEMENT",
+                          "nodeId" : "at0024.2",
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "value",
+                            "children" : [ {
+                              "@type" : "C_COMPLEX_OBJECT",
+                              "rmTypeName" : "DV_BOOLEAN",
+                              "attributes" : [ ],
+                              "attributeTuples" : [ ]
+                            } ]
+                          } ],
+                          "attributeTuples" : [ ]
+                        }, {
+                          "@type" : "C_COMPLEX_OBJECT",
+                          "rmTypeName" : "ELEMENT",
+                          "nodeId" : "at0003.2",
+                          "attributes" : [ {
+                            "@type" : "C_ATTRIBUTE",
+                            "rmAttributeName" : "value",
+                            "children" : [ {
+                              "@type" : "C_COMPLEX_OBJECT",
+                              "rmTypeName" : "DV_CODED_TEXT",
+                              "occurrences" : "1..1",
+                              "attributes" : [ {
+                                "@type" : "C_ATTRIBUTE",
+                                "rmAttributeName" : "defining_code",
+                                "children" : [ {
+                                  "@type" : "C_TERMINOLOGY_CODE",
+                                  "rmTypeName" : "TERMINOLOGY_CODE",
+                                  "occurrences" : "0..1",
+                                  "terminologyId" : {
+                                    "value" : "local_terms"
+                                  },
+                                  "constraint" : [ ],
+                                  "selectedTerminologies" : [ "local_terms" ],
+                                  "includedExternalTerminologyCodes" : [ {
+                                    "terminologyId" : "local_terms",
+                                    "code" : "A",
+                                    "value" : "Alternativ A"
+                                  }, {
+                                    "terminologyId" : "local_terms",
+                                    "code" : "B",
+                                    "value" : "Alternativ B"
+                                  }, {
+                                    "terminologyId" : "local_terms",
+                                    "code" : "C",
+                                    "value" : "Alternativ C"
+                                  } ]
+                                } ]
+                              } ],
+                              "attributeTuples" : [ ]
+                            } ]
+                          } ],
+                          "attributeTuples" : [ ]
+                        } ]
+                      } ],
+                      "attributeTuples" : [ ]
                     } ]
                   } ],
                   "attributeTuples" : [ ]
@@ -580,6 +647,13 @@
             "text" : "(Synthesized)",
             "code" : "ac0.4",
             "description" : ""
+          },
+          "at0026.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0026.1",
+            "text" : "Specific investigation (2)",
+            "description" : "Details about a specified investigation or grouping of investigations relevant for the screening purpose.",
+            "comment" : "Use separate instances of this CLUSTER to differentiate between specific investigations or groupings of investigations."
           }
         },
         "de" : {
@@ -588,6 +662,13 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.4",
             "description" : ""
+          },
+          "at0026.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0026.1",
+            "text" : "Spezifische Untersuchung (2)",
+            "description" : "Angaben zu einer bestimmten Untersuchung oder einer Gruppe von Untersuchungen, die für den Zweck des Screenings relevant sind.",
+            "comment" : "Verwenden Sie separate Instanzen von diesem CLUSTER, um zwischen bestimmten Untersuchungen oder Gruppierungen von Untersuchungen zu unterscheiden."
           }
         },
         "nb" : {
@@ -603,6 +684,13 @@
             "text" : "*(Synthesized) (en)",
             "code" : "ac0.4",
             "description" : ""
+          },
+          "at0026.2" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0026.2",
+            "text" : "Spesifikk us. - 1",
+            "description" : "Detaljer om en spesifikk undersøkelse eller gruppe av undersøkelser som er innenfor kartleggingsformålet.",
+            "comment" : "Bruk separate instanser av dette CLUSTER'et for å skille mellom spesifikke undersøkelser eller gruppering av undersøkelser."
           }
         }
       },
