@@ -22,7 +22,7 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "MD5-CAM-1.0.1" : "450b58b35ff36055f7ded26ea68b72f4",
+      "MD5-CAM-1.0.1" : "89f48b1cb224257f56eee895b893af78",
       "PARENT:MD5-CAM-1.0.1" : "327A8885F97587660404644C3C6053B6"
     },
     "details" : {
@@ -229,19 +229,19 @@
         "@type" : "C_ARCHETYPE_ROOT",
         "rmTypeName" : "OBSERVATION",
         "occurrences" : "0..1",
-        "nodeId" : "at0.2",
+        "nodeId" : "at0.5",
         "attributes" : [ ],
         "attributeTuples" : [ ],
-        "archetypeRef" : "openEHR-EHR-OBSERVATION.ovl-investigation_screening-001.v1",
+        "archetypeRef" : "openEHR-EHR-OBSERVATION.ovl-investigation_screening-002.v1",
         "referenceType" : "archetypeOverlay"
       }, {
         "@type" : "C_ARCHETYPE_ROOT",
         "rmTypeName" : "OBSERVATION",
         "occurrences" : "0..1",
-        "nodeId" : "at0.4",
+        "nodeId" : "at0.2",
         "attributes" : [ ],
         "attributeTuples" : [ ],
-        "archetypeRef" : "openEHR-EHR-OBSERVATION.ovl-investigation_screening-002.v1",
+        "archetypeRef" : "openEHR-EHR-OBSERVATION.ovl-investigation_screening-001.v1",
         "referenceType" : "archetypeOverlay"
       } ]
     } ],
