@@ -22,7 +22,7 @@
       "original_namespace" : "",
       "original_publisher" : "",
       "custodian_namespace" : "",
-      "MD5-CAM-1.0.1" : "81e8d0e8b6a61f42230139b7f302de52",
+      "MD5-CAM-1.0.1" : "347b901c4cb03388d4a6fb90e149e5e9",
       "PARENT:MD5-CAM-1.0.1" : "327A8885F97587660404644C3C6053B6"
     },
     "details" : {
@@ -759,6 +759,13 @@
           }
         },
         "nb" : {
+          "at0000.1" : {
+            "@type" : "ARCHETYPE_TERM",
+            "code" : "at0000.1",
+            "text" : "NEWS2",
+            "description" : "En enkel evalueringsskår for å identifisere klinisk forverring hos en pasient.",
+            "comment" : "Dette representerer den andre versjonen av National Early Warning Score, utgitt av the UK Royal College of Physicians i 2017."
+          },
           "ac0.1" : {
             "@type" : "ARCHETYPE_TERM",
             "text" : "*(Synthesized) (en)",
