@@ -166,7 +166,9 @@
           },
           "codeString" : "nb"
         },
+        "purpose" : "Dette er kun for test og demo",
         "keywords" : [ ],
+        "misuse" : "Skal aldir brukes i helsetjenesten. ",
         "originalResourceUri" : { },
         "otherDetails" : { }
       },
